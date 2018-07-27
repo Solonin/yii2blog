@@ -38,7 +38,7 @@ PublicAsset::register($this);
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/"><img src="/web/public/images/logo.jpg" alt=""></a>
+                <a class="navbar-brand" href="/"><img src="/public/images/logo.jpg" alt=""></a>
             </div>
 
 
@@ -88,7 +88,7 @@ PublicAsset::register($this);
         <div class="row">
             <div class="col-md-4">
                 <aside class="footer-widget">
-                    <div class="about-img"><img src="/web/public/images/logo2.png" alt=""></div>
+                    <div class="about-img"><img src="/public/images/logo2.png" alt=""></div>
                     <div class="about-content">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed voluptua. At vero eos et
                         accusam et justo duo dlores et ea rebum magna text ar koto din.
@@ -126,7 +126,7 @@ PublicAsset::register($this);
                                             magna aliquyam eratma</p>
                                     </div>
                                     <div class="author-id">
-                                        <img src="/web/public/images/author.png" alt="">
+                                        <img src="/public/images/author.png" alt="">
 
                                         <div class="author-text">
                                             <h4>Sophia</h4>
@@ -145,7 +145,7 @@ PublicAsset::register($this);
                                             magna aliquyam eratma</p>
                                     </div>
                                     <div class="author-id">
-                                        <img src="/web/public/images/author.png" alt="">
+                                        <img src="/public/images/author.png" alt="">
 
                                         <div class="author-text">
                                             <h4>Sophia</h4>
@@ -164,7 +164,7 @@ PublicAsset::register($this);
                                             magna aliquyam eratma</p>
                                     </div>
                                     <div class="author-id">
-                                        <img src="/web/public/images/author.png" alt="">
+                                        <img src="/public/images/author.png" alt="">
 
                                         <div class="author-text">
                                             <h4>Sophia</h4>
@@ -186,7 +186,7 @@ PublicAsset::register($this);
 
                     <div class="custom-post">
                         <div>
-                            <a href="#"><img src="/web/public/images/footer-img.png" alt=""></a>
+                            <a href="#"><img src="/public/images/footer-img.png" alt=""></a>
                         </div>
                         <div>
                             <a href="#" class="text-uppercase">Home is peaceful Place</a>
