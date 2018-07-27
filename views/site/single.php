@@ -8,7 +8,7 @@ use yii\helpers\Url;
             <div class="col-md-8">
                 <article class="post">
                     <div class="post-thumb">
-                        <a href="blog.html"><img src="/web/<?= $article->getImage();?>" alt=""></a>
+                        <a href="blog.html"><img src="/<?= $article->getImage();?>" alt=""></a>
                     </div>
                     <div class="post-content">
                         <header class="entry-header text-center text-uppercase">
@@ -40,7 +40,7 @@ use yii\helpers\Url;
                     </div>
                 </article>
                 <div class="top-comment"><!--top comment-->
-                    <img src="/web/public/images/comment.jpg" class="pull-left img-circle" alt="">
+                    <img src="/public/images/comment.jpg" class="pull-left img-circle" alt="">
                     <h4>Rubel Miah</h4>
 
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy hello ro mod tempor
@@ -50,7 +50,7 @@ use yii\helpers\Url;
                     <div class="col-md-6">
                         <div class="single-blog-box">
                             <a href="#">
-                                <img src="/web/public/images/blog-next.jpg" alt="">
+                                <img src="/public/images/blog-next.jpg" alt="">
 
                                 <div class="overlay">
 
@@ -67,7 +67,7 @@ use yii\helpers\Url;
                     <div class="col-md-6">
                         <div class="single-blog-box">
                             <a href="#">
-                                <img src="/web/public/images/blog-next.jpg" alt="">
+                                <img src="/public/images/blog-next.jpg" alt="">
 
                                 <div class="overlay">
                                     <div class="promo-text">
@@ -87,7 +87,7 @@ use yii\helpers\Url;
                     <div class="items">
                         <div class="single-item">
                             <a href="#">
-                                <img src="/web/public/images/related-post-1.jpg" alt="">
+                                <img src="/public/images/related-post-1.jpg" alt="">
 
                                 <p>Just Wondering at Beach</p>
                             </a>
@@ -96,7 +96,7 @@ use yii\helpers\Url;
 
                         <div class="single-item">
                             <a href="#">
-                                <img src="/web/public/images/related-post-2.jpg" alt="">
+                                <img src="/public/images/related-post-2.jpg" alt="">
 
                                 <p>Just Wondering at Beach</p>
                             </a>
@@ -105,7 +105,7 @@ use yii\helpers\Url;
 
                         <div class="single-item">
                             <a href="#">
-                                <img src="/web/public/images/related-post-3.jpg" alt="">
+                                <img src="/public/images/related-post-3.jpg" alt="">
 
                                 <p>Just Wondering at Beach</p>
                             </a>
@@ -114,7 +114,7 @@ use yii\helpers\Url;
 
                         <div class="single-item">
                             <a href="#">
-                                <img src="/web/public/images/related-post-1.jpg" alt="">
+                                <img src="/public/images/related-post-1.jpg" alt="">
 
                                 <p>Just Wondering at Beach</p>
                             </a>
@@ -122,7 +122,7 @@ use yii\helpers\Url;
 
                         <div class="single-item">
                             <a href="#">
-                                <img src="/web/public/images/related-post-2.jpg" alt="">
+                                <img src="/public/images/related-post-2.jpg" alt="">
 
                                 <p>Just Wondering at Beach</p>
                             </a>
@@ -131,7 +131,7 @@ use yii\helpers\Url;
 
                         <div class="single-item">
                             <a href="#">
-                                <img src="/web/public/images/related-post-3.jpg" alt="">
+                                <img src="/public/images/related-post-3.jpg" alt="">
 
                                 <p>Just Wondering at Beach</p>
                             </a>
@@ -142,7 +142,7 @@ use yii\helpers\Url;
                     <h4>3 comments</h4>
 
                     <div class="comment-img">
-                        <img class="img-circle" src="/web/public/images/comment-img.jpg" alt="">
+                        <img class="img-circle" src="/public/images/comment-img.jpg" alt="">
                     </div>
 
                     <div class="comment-text">
