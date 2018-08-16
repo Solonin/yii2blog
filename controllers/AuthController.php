@@ -46,12 +46,24 @@ class AuthController extends Controller
     {
         $model = new SignupForm();
 
+        if(Yii::$app->request->isPost)
+        {
+            $model->load(Yii::$app->request->post());
+            if($model->signup())
+            {
+                return $this->redirect(['auth/login']);
+            }
+        }
+
         return $this->render('signup', ['model'=>$model]);
     }
 
     public function actionTest()
     {
         $user = User::findOne(1);
+
+        var_dump(!Yii::$app->user->isGuest);
+        var_dump(Yii::$app->user->identity->isAdmin);
 
 //        Yii::$app->user->login($user);
         Yii::$app->user->logout();
